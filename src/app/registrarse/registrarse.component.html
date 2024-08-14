@@ -1,1 +1,27 @@
-<p>registrarse works!</p>
+<h1>REGISTRARSE</h1>
+
+<form>
+    <!--verificacion de email/correo -->
+    <div>
+      <label for="nombreUsuario">Nombre</label>
+      <input type="text">
+      <br>
+      <label for="apellidoUsuario">Apellido</label>
+      <input type="text">
+      <br>
+      <label for="telefonoUsuario">Telefono</label>
+      <input type="number">
+      <br>
+      <label for="emailUsuario">Correo electronico</label>
+      <input type="email" id="emailUsuario">
+      <br>
+      <label for="confirmarEmailUsuario">Correo electronico</label>
+      <input type="email" id="confirmarEmailUsuario">
+      <br>
+      <div id="emailHelp">We'll never share your email with anyone else.</div>
+    </div>
+    <button type="submit">REGISTRARSE</button>
+
+</form>
+
+<p>¿TIENES CUENTA? <a routerLink="/login">LOG IN</a> </p>
